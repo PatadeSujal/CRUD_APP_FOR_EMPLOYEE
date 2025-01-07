@@ -1,0 +1,12 @@
+CREATE DATABASE EMPLOYEE;
+use employee;
+Drop table emp;
+CREATE TABLE emp (
+    id INT  PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    department VARCHAR(100),
+    email VARCHAR(100) UNIQUE
+);
+
+select * from emp;
