@@ -1,0 +1,6 @@
+# Ignore jar files
+*.jar
+# Ignore class files in the bin folder
+/bin/*.class
+# Ignore config.properties in the src folder
+/src/config.properties
